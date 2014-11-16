@@ -1,6 +1,6 @@
 {
   "name": "svg-filtered",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A plugin that allows for generated filters on images using svg filters",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jcblw/filtered"
+    "url": "https://github.com/jcblw/svg-filtered"
   },
   "keywords": [
     "filter",
@@ -26,9 +26,9 @@
   "author": "Jacob Lowe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcblw/filtered/issues"
+    "url": "https://github.com/jcblw/svg-filtered/issues"
   },
-  "homepage": "https://github.com/jcblw/filtered",
+  "homepage": "https://github.com/jcblw/svg-filtered",
   "devDependencies": {
     "browserify": "^6.3.2",
     "uglify": "^0.1.0"
