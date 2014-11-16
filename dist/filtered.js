@@ -9,7 +9,7 @@ function setupFilter ( filterName, selector, options ) {
         div = document.createElement( 'div' ),
         filter = 'url(#' + effect.id + ');';
 
-    div.setAttribute( 'style', 'height:0!important;width:0!important;overflow:hidden!important' );
+    div.setAttribute( 'style', 'height:0!important;width:0!important;overflow:hidden!important;position:absolute;' );
     css.setAttribute( 'type', 'text/css' );
     css.innerText = selector + '{ -moz-filter: ' + filter + ' -webkit-filter: ' + filter + ' filter: ' + filter + ' }';
     div.innerHTML = effect.html;
@@ -190,7 +190,7 @@ var vsvg = require( 'vsvg' );
 
 
 // returns svg filter
-module.exports = {
+var filters = {
     colorFlood: function( options ) {
         var svg = vsvg.svg({
                 height: 0
@@ -292,6 +292,9 @@ module.exports = {
             html: svg.toHTML()
         };
     },
-    list: 'colorFlood,blur,inverse'.split(',')
-}
+};
+
+filters.list = Object.keys( filters );
+
+module.exports = filters;
 },{"vsvg":2}]},{},[1]);
