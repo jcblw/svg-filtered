@@ -10,7 +10,7 @@ function setupFilter ( filterName, selector, options ) {
 
     div.setAttribute( 'style', 'height:0!important;width:0!important;overflow:hidden!important;position:absolute;' );
     css.setAttribute( 'type', 'text/css' );
-    css.innerText = selector + '{ -moz-filter: ' + filter + ' -webkit-filter: ' + filter + ' filter: ' + filter + ' }';
+    css.innerHTML = selector + '{ -moz-filter: ' + filter + ' -webkit-filter: ' + filter + ' filter: ' + filter + ' }';
     div.innerHTML = effect.html;
     div.appendChild( css );
     el.parentNode.insertBefore( div, el );
