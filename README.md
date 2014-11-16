@@ -37,3 +37,15 @@ filtered.colorFlood( '.color-me', {
     color: 'tomato'
 });
 ```
+
+## Current Browser Support
+
+- Chrome latest
+- Firefox latest
+- Chrome for Android
+
+### looking to support
+
+- IE 10,11
+- Safari 6
+- Safari IOS
