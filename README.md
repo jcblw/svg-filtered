@@ -2,7 +2,7 @@
 
 Filter html elements by using svg filters on them.
 
-![filterify](https://raw.githubusercontent.com/jcblw/svg-filtered/master/test/before-after.png)
+![filterify](https://raw.githubusercontent.com/jcblw/svg-filtered/master/examples/before-after.png)
 
 ## Installation
 
