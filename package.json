@@ -1,6 +1,6 @@
 {
   "name": "svg-filtered",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A plugin that allows for generated filters on images using svg filters",
   "main": "index.js",
   "scripts": {
