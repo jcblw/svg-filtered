@@ -1,0 +1,17 @@
+<!doctype html>
+    <title>Test Page</title>
+
+    <img class="blur-filter" src="./pizza.jpg" />
+    <img class="colorFlood-filter" src="./cat.png" />
+    <img class="inverse-filter" src="./garfield.gif" />
+
+    <script src="../dist/filtered.js"></script>
+    <script>
+        filtered.blur( '.blur-filter', {
+            deviation: 3
+        } );
+        filtered.colorFlood( '.colorFlood-filter', {
+            color: '#bada55'
+        } );
+        filtered.inverse( '.inverse-filter' );
+    </script>

@@ -1,0 +1,39 @@
+{
+  "name": "svg-filtered",
+  "version": "0.3.0",
+  "description": "A plugin that allows for generated filters on images using svg filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"ಠ_ಠ\";",
+    "build": "browserify index.js -o ./dist/filtered.js",
+    "dist": "npm run build && uglify ./dist/filtered.js -o ./dist/filtered.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcblw/filtered"
+  },
+  "keywords": [
+    "filter",
+    "svg",
+    "client",
+    "browserify",
+    "image",
+    "video",
+    "effects",
+    "blur",
+    "sepia"
+  ],
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcblw/filtered/issues"
+  },
+  "homepage": "https://github.com/jcblw/filtered",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "uglify": "^0.1.0"
+  },
+  "dependencies": {
+    "vsvg": "^1.0.0"
+  }
+}
