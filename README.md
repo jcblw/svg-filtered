@@ -1,5 +1,7 @@
 # SVG Filtered
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/svg-filtered.svg)](https://greenkeeper.io/)
+
 Filter html elements by using svg filters on them.
 
 ![filterify](https://raw.githubusercontent.com/jcblw/svg-filtered/master/examples/before-after.png)
